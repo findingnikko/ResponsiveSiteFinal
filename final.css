@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-family: "Tritong";
+    font-family: "Trirong";
 }
 
 header {
@@ -32,7 +32,7 @@ header {
     padding: 25px 20px;
     text-decoration: none;
     font-size: 50px;
-    font-family: "Tritong";
+    font-family: "Trirong";
     font-weight: bolder;
     width: 289px;
     
@@ -45,7 +45,7 @@ header {
 
 h1 {
     font-size: 5em;
-    font-family: "Tritong";
+    font-family: "Trirong";
     font-weight: bolder;
 }
 
@@ -127,7 +127,7 @@ video {
 color: #666;
 font-size: 15px;
 line-height: 1.3; 
-font-family: "Tritong";
+font-family: "Trirong";
 }
 .button3, .button4, .button5{
     display: inline-block;
@@ -148,7 +148,7 @@ font-family: "Tritong";
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: "Tritong";  
+    font-family: "Trirong";  
 }
 .hero-text h1{
     font-size: 400%;
@@ -192,7 +192,7 @@ margin-top: 10%;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Tritong";
+    font-family: "Trirong";
 }
 h2{ 
     display: flex;
@@ -233,7 +233,7 @@ footer {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: "Tritong";
+    font-family: "Trirong";
 }
 
 .footer-section ul li {
@@ -244,19 +244,19 @@ footer {
 .footer-section ul.social-icons {
     display: flex;
     justify-content: flex-start;
-    font-family: "Tritong";
+    font-family: "Trirong";
 }
 
 .footer-section ul.social-icons li {
     margin-right: 10px;
-    font-family: "Tritong";
+    font-family: "Trirong";
 }
 
 .footer-section ul.social-icons li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    font-family: "Tritong";
+    font-family: "Trirong";
 }
 
 .footer-bottom {
