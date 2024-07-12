@@ -1,0 +1,336 @@
+body {
+    background-color: black;
+    font-family: "Tritong";
+}
+
+header {
+    display: grid;
+    justify-content: center;
+    margin: 30px;
+}
+
+.topnav {
+    background-color: #fd9fff;
+    overflow: hidden;
+  }
+
+  .topnav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .topnav li {
+    display: inline-block;
+  }
+
+  .topnav a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "Tritong";
+    font-weight: bolder;
+    width: 289px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(255, 212, 253);
+    color: black;
+  }
+
+h1 {
+    font-size: 5em;
+    font-family: "Tritong";
+    font-weight: bolder;
+}
+
+
+.btn {
+    display: inline-block;
+    width: 200px;
+    font-size: 2em;
+    font-weight: bold;
+    color:white;
+    border: 4px solid white;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease out;
+}
+
+.btn:hover, .btn:active {
+    background-color:  rgb(255, 212, 253);
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+video {
+    display: grid;
+    margin-top: 10px;
+    margin-left: 350px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 920px) {
+    .inner-container {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .inner-container {
+        margin-top: 150px;
+    }
+    h1 {
+        font-size: 4em;
+    }
+}
+
+.Card-section{
+    background-color: #000;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.card{
+ width:325px;
+ background-color: #f0f0f0;
+ border-radius: 8px;
+ overflow: hidden;
+ box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+ margin: 20px; 
+ margin-top: 5%;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+
+}
+.card-content h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+
+}
+.card-content p {
+color: #666;
+font-size: 15px;
+line-height: 1.3; 
+font-family: "Tritong";
+}
+.button3, .button4, .button5{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+}
+
+.button3:hover,.button4:hover,.button5:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Tritong";  
+}
+.hero-text h1{
+    font-size: 400%;
+    font-weight: 500;
+    line-height: 10px;
+}
+.hero-image{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("/images/microphone.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text{
+color: #fff;
+text-align: center;
+}
+
+.button1,.button2{
+text-decoration: none;
+color: #fff;
+background-color: #000;
+padding: 10px 30px;
+border-radius: 5px;
+margin-top: 10px;
+display: inline-block;
+margin-top: 10%;
+}
+
+.button1:hover,.button2:hover{
+    background-color: #fff;
+    color: #000;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Tritong";
+}
+h2{ 
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+footer {
+    background-color: #e3a0d4;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 20px;   
+    margin-left: 200px;
+}
+
+.footer-section {
+    flex: 2;
+    min-width: 200px;
+    margin: 20px 0;  
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Tritong";
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    font-family: "Tritong";
+}
+
+.footer-section ul.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Tritong";
+}
+
+.footer-section ul.social-icons li {
+    margin-right: 10px;
+    font-family: "Tritong";
+}
+
+.footer-section ul.social-icons li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Tritong";
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #0f0f0f;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin: 10px 0;
+    }
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.accordion input {
+    display: none;
+}
+
+.accordion label {
+    padding: 18px;
+    background-color: #eee;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin: 0;
+    transition: background-color 0.3s;
+}
+
+.accordion label:hover {
+    background-color: #e3a0d4;
+}
+
+.accordion .panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out, padding 0.2s ease-out;
+    background-color: #f1f1f1;
+    padding: 0 18px;
+}
+
+.accordion input:checked + label + .panel {
+    max-height: 200px; /* Adjust according to content length */
+    padding: 18px;
+}
+
+@media (max-width: 768px) {
+    .accordion label {
+        padding: 16px;
+    }
+
+    .accordion .panel {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .accordion label {
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    .accordion .panel {
+        padding: 0 14px;
+    }
+}
